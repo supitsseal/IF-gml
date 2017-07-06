@@ -1,0 +1,18 @@
+instance_deactivate_all(true)
+
+instance_activate_object(HUD)
+instance_activate_object(GENERATE)
+instance_activate_object(obj_grass)
+instance_activate_object(obj_stone)
+instance_activate_object(obj_dirt)
+instance_activate_object(obj_chardGrass)
+instance_activate_object(obj_chardDirt)
+instance_activate_object(obj_gun)
+instance_activate_object(obj_planetLeave)
+instance_activate_object(obj_enemy_ship)
+instance_activate_object(obj_alien)
+instance_activate_object(obj_laser_player_planet)
+instance_activate_object(obj_player_laser)
+instance_activate_object(obj_laser_enemy)
+
+instance_activate_region(view_xview[0]-64,view_yview[0]-64,view_wview[0]+64,view_hview[0]+64, true)
